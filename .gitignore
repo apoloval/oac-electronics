@@ -1,0 +1,9 @@
+
+# DesignSpark project temp files
+~*
+
+# DesignSpark libraries temp files
+libraries/*.cmx
+libraries/*.psx
+libraries/*.ssx
+
