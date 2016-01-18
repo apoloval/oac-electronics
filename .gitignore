@@ -7,3 +7,6 @@ libraries/*.cmx
 libraries/*.psx
 libraries/*.ssx
 
+# Generated Gerber files
+gerber/
+Gerber/
