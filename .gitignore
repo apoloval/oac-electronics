@@ -10,3 +10,12 @@ libraries/*.ssx
 # Generated Gerber files
 gerber/
 Gerber/
+
+# Kicad project files
+*-cache.lib
+*-rescue.lib
+*-save.kicad_pcb
+*-save.pro
+*.000
+*.bak
+*.bck
