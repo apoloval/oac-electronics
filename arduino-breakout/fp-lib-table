@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name arduino_shields)(type Legacy)(uri $KIPRJMOD\..\libraries\arduino_shields.mod)(options "")(descr ""))
+  (lib (name oac-conn)(type KiCad)(uri $KIPRJMOD\..\libraries\oac-conn.pretty)(options "")(descr ""))
+  (lib (name ifs-connectors)(type KiCad)(uri $KIPRJMOD\..\libraries\ifs-connectors.pretty)(options "")(descr ""))
+)
