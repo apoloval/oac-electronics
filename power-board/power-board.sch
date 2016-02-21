@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:power-board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -45,12 +46,12 @@ $EndDescr
 $Comp
 L CONN_01X04 P1
 U 1 1 56C61B86
-P 2750 3100
-F 0 "P1" H 2750 3350 50  0000 C CNN
-F 1 "CONN_01X04" V 2850 3100 50  0000 C CNN
-F 2 "w_conn_pc:conn_hdd_15-24-4441" H 2750 3100 50  0001 C CNN
-F 3 "" H 2750 3100 50  0000 C CNN
-	1    2750 3100
+P 2550 3100
+F 0 "P1" H 2550 3350 50  0000 C CNN
+F 1 "CONN_01X04" V 2650 3100 50  0000 C CNN
+F 2 "w_conn_pc:conn_hdd_15-24-4441" H 2550 3100 50  0001 C CNN
+F 3 "" H 2550 3100 50  0000 C CNN
+	1    2550 3100
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -185,7 +186,7 @@ F 3 "" H 5100 3550 50  0000 C CNN
 	1    5100 3550
 	0    -1   1    0   
 $EndComp
-Text Label 3000 2950 0    60   ~ 0
+Text Label 2750 2950 0    60   ~ 0
 5V
 $Comp
 L CONN_01X04 P28
@@ -234,23 +235,23 @@ $EndComp
 $Comp
 L CONN_01X04 P2
 U 1 1 56C6842F
-P 2750 3750
-F 0 "P2" H 2750 4000 50  0000 C CNN
-F 1 "CONN_01X04" V 2850 3750 50  0000 C CNN
-F 2 "w_conn_screw:mors_4p" H 2750 3750 50  0001 C CNN
-F 3 "" H 2750 3750 50  0000 C CNN
-	1    2750 3750
+P 2550 3750
+F 0 "P2" H 2550 4000 50  0000 C CNN
+F 1 "CONN_01X04" V 2650 3750 50  0000 C CNN
+F 2 "w_conn_screw:mors_4p" H 2550 3750 50  0001 C CNN
+F 3 "" H 2550 3750 50  0000 C CNN
+	1    2550 3750
 	-1   0    0    -1  
 $EndComp
 $Comp
 L CONN_01X04 P3
 U 1 1 56C6C87D
-P 2750 4350
-F 0 "P3" H 2750 4600 50  0000 C CNN
-F 1 "CONN_01X04" V 2850 4350 50  0000 C CNN
-F 2 "w_conn_pc:conn_hdd_15-24-4441" H 2750 4350 50  0001 C CNN
-F 3 "" H 2750 4350 50  0000 C CNN
-	1    2750 4350
+P 2550 4350
+F 0 "P3" H 2550 4600 50  0000 C CNN
+F 1 "CONN_01X04" V 2650 4350 50  0000 C CNN
+F 2 "w_conn_pc:conn_hdd_15-24-4441" H 2550 4350 50  0001 C CNN
+F 3 "" H 2550 4350 50  0000 C CNN
+	1    2550 4350
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -430,19 +431,19 @@ F 3 "" H 7300 3900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3350 3150 2950 3150
+	3350 3150 2750 3150
 Wire Wire Line
-	2950 3250 3250 3250
+	2750 3250 3250 3250
 Wire Wire Line
 	3550 3150 3550 4300
 Wire Wire Line
-	3250 3700 2950 3700
+	3250 3700 2750 3700
 Wire Wire Line
-	3350 3600 2950 3600
+	3350 3600 2750 3600
 Wire Wire Line
-	3550 3900 2950 3900
+	3550 3900 2750 3900
 Wire Wire Line
-	3650 3800 2950 3800
+	3650 3800 2750 3800
 Connection ~ 3350 3600
 Connection ~ 3250 3700
 Connection ~ 3350 3050
@@ -454,9 +455,9 @@ Wire Wire Line
 Wire Wire Line
 	3550 3150 8350 3150
 Wire Wire Line
-	2950 3050 8450 3050
+	2750 3050 8450 3050
 Wire Wire Line
-	2950 2950 8550 2950
+	2750 2950 8550 2950
 Wire Wire Line
 	8550 2850 8550 3350
 Connection ~ 8550 2950
@@ -635,13 +636,13 @@ Wire Wire Line
 Wire Wire Line
 	3850 4100 3850 4600
 Wire Wire Line
-	3350 3050 3350 4400
+	3350 2500 3350 4950
 Wire Wire Line
 	3250 3250 3250 4200
 Wire Wire Line
-	3250 4200 2950 4200
+	3250 4200 2750 4200
 Wire Wire Line
-	2950 4300 3350 4300
+	2750 4300 3350 4300
 Connection ~ 3350 4300
 Connection ~ 3350 4400
 Connection ~ 3550 3900
@@ -679,26 +680,26 @@ Connection ~ 4150 4500
 Connection ~ 4050 4400
 Connection ~ 3950 4300
 Wire Wire Line
-	3450 2950 3450 4500
+	3450 2400 3450 5050
 Connection ~ 3450 4500
 Connection ~ 3450 2950
-Text Label 3000 3050 0    60   ~ 0
+Text Label 2750 3050 0    60   ~ 0
 GND
-Text Label 3000 3150 0    60   ~ 0
+Text Label 2750 3150 0    60   ~ 0
 GND
-Text Label 3000 3250 0    60   ~ 0
+Text Label 2750 3250 0    60   ~ 0
 12V
-Text Label 3000 4500 0    60   ~ 0
+Text Label 2750 4500 0    60   ~ 0
 5V
-Text Label 3000 4400 0    60   ~ 0
+Text Label 2750 4400 0    60   ~ 0
 GND
-Text Label 3000 4300 0    60   ~ 0
+Text Label 2750 4300 0    60   ~ 0
 GND
-Text Label 3000 4200 0    60   ~ 0
+Text Label 2750 4200 0    60   ~ 0
 12V
-Text Label 3000 3800 0    60   ~ 0
+Text Label 2750 3800 0    60   ~ 0
 D12V
-Text Label 3000 3900 0    60   ~ 0
+Text Label 2750 3900 0    60   ~ 0
 DGND
 Wire Wire Line
 	3850 2850 3850 3350
@@ -708,9 +709,9 @@ Wire Wire Line
 Wire Wire Line
 	3550 4300 8350 4300
 Wire Wire Line
-	2950 4500 8550 4500
+	2750 4500 8550 4500
 Wire Wire Line
-	2950 4400 8450 4400
+	2750 4400 8450 4400
 $Comp
 L CONN_01X04 P37
 U 1 1 56C8BDF5
@@ -759,4 +760,74 @@ F 3 "" H 8400 3550 50  0000 C CNN
 	1    8400 3550
 	0    -1   1    0   
 $EndComp
+$Comp
+L CONN_01X04 P40
+U 1 1 56C97A6A
+P 2550 2550
+F 0 "P40" H 2550 2800 50  0000 C CNN
+F 1 "CONN_01X04" V 2650 2550 50  0000 C CNN
+F 2 "w_conn_screw:mors_4p" H 2550 2550 50  0001 C CNN
+F 3 "" H 2550 2550 50  0000 C CNN
+	1    2550 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2750 2400 3450 2400
+Wire Wire Line
+	3350 2500 2750 2500
+Wire Wire Line
+	3250 3150 3250 2600
+Wire Wire Line
+	3250 2600 2750 2600
+Connection ~ 3250 3150
+Wire Wire Line
+	3150 3250 3150 2700
+Wire Wire Line
+	3150 2700 2750 2700
+Connection ~ 3150 3250
+Text Label 2750 3700 0    60   ~ 0
+12V
+Text Label 2750 3600 0    60   ~ 0
+GND
+Text Label 2750 2400 0    60   ~ 0
+5V
+Text Label 2750 2500 0    60   ~ 0
+GND
+Text Label 2750 2600 0    60   ~ 0
+GND
+Text Label 2750 2700 0    60   ~ 0
+12V
+$Comp
+L CONN_01X04 P41
+U 1 1 56C9901A
+P 2550 4900
+F 0 "P41" H 2550 5150 50  0000 C CNN
+F 1 "CONN_01X04" V 2650 4900 50  0000 C CNN
+F 2 "w_conn_screw:mors_4p" H 2550 4900 50  0001 C CNN
+F 3 "" H 2550 4900 50  0000 C CNN
+	1    2550 4900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 5050 2750 5050
+Wire Wire Line
+	3350 4950 2750 4950
+Wire Wire Line
+	2750 4850 3250 4850
+Wire Wire Line
+	3250 4850 3250 4300
+Connection ~ 3250 4300
+Wire Wire Line
+	2750 4750 3150 4750
+Wire Wire Line
+	3150 4750 3150 4200
+Connection ~ 3150 4200
+Text Label 2750 5050 0    60   ~ 0
+5V
+Text Label 2750 4950 0    60   ~ 0
+GND
+Text Label 2750 4850 0    60   ~ 0
+GND
+Text Label 2750 4750 0    60   ~ 0
+12V
 $EndSCHEMATC
