@@ -1,9 +1,9 @@
-(module conn_hdd_15-24-4441 (layer F.Cu)
+(module molex-hdd (layer F.Cu) (tedit 56C980EE)
   (descr "5.08mm Disk drive power connector, 90°, Molex P/N 15-24-4441")
-  (fp_text reference conn_hdd_15-24-4441 (at 0 8.89) (layer F.SilkS)
+  (fp_text reference P1 (at 0.07 -8.365) (layer F.SilkS)
     (effects (font (thickness 0.3048)))
   )
-  (fp_text value JP*** (at 0 -8.636) (layer F.SilkS)
+  (fp_text value CONN_01X04 (at 0 0) (layer F.SilkS) hide
     (effects (font (thickness 0.3048)))
   )
   (fp_line (start 8.4 -5.7) (end 6.9 -5.7) (layer F.SilkS) (width 0.3))

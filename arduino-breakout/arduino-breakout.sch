@@ -28,7 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:arduino_shieldsNCL
+LIBS:oac-conn
 LIBS:arduino-breakout-cache
 EELAYER 25 0
 EELAYER END
@@ -44,17 +44,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L ARDUINO_MEGA_SHIELD SHIELD1
-U 1 1 56C9E50D
-P 2600 3800
-F 0 "SHIELD1" H 2200 6300 60  0000 C CNN
-F 1 "ARDUINO_MEGA_SHIELD" H 2500 1100 60  0000 C CNN
-F 2 "arduino_shields:ARDUINO_MEGA_SHIELD" H 2600 3800 60  0001 C CNN
-F 3 "" H 2600 3800 60  0000 C CNN
-	1    2600 3800
-	1    0    0    -1  
-$EndComp
 NoConn ~ 3500 1450
 Text GLabel 1150 4850 0    50   Output ~ 0
 MOSI
@@ -1197,4 +1186,15 @@ $EndComp
 Wire Wire Line
 	5600 6550 5600 6200
 Connection ~ 5600 6200
+$Comp
+L Arduino_Mega_shield SHIELD1
+U 1 1 56CB6CA7
+P 2600 3800
+F 0 "SHIELD1" H 2200 6300 60  0000 C CNN
+F 1 "Arduino_Mega_shield" H 2500 1100 60  0000 C CNN
+F 2 "" H 2600 3800 60  0000 C CNN
+F 3 "" H 2600 3800 60  0000 C CNN
+	1    2600 3800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
