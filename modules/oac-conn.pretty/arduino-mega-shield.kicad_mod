@@ -91,8 +91,8 @@
   (pad 53 thru_hole circle (at 96.52 -10.16) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
   (pad GND4 thru_hole circle (at 93.98 -7.62) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
   (pad GND5 thru_hole circle (at 96.52 -7.62) (size 1.524 1.524) (drill 0.8128) (layers *.Cu *.Mask F.SilkS))
-  (model packages3d\nick\ArduinoMegaShield.wrl
-    (at (xyz 0 0 0))
+  (model oac-conn.3dshapes/arduino-mega-shield.wrl
+    (at (xyz 1.95 1.05 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
